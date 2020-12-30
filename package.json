@@ -1,0 +1,18 @@
+{
+  "name": "for_jsdoc",
+  "version": "1.0.0",
+  "description": "测试 jsdoc",
+  "main": "index.js",
+  "scripts": {
+    "debug": "node --inspect-brk=6666 ./node_modules/.bin/jsdoc.js ./protocol.js -c ./conf.json",
+    "toDocs": "bash ./run.sh"
+  },
+  "author": "sadhu",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdoc": "^3.6.6",
+    "jsdoc-export-default-interop": "^0.3.1",
+    "jsdoc-to-markdown": "^6.0.1",
+    "minami": "^1.2.3"
+  }
+}
